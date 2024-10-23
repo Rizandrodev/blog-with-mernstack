@@ -1,0 +1,23 @@
+
+### `.gitignore`
+
+```gitignore
+# Ignorar a pasta node_modules
+node_modules/
+
+# Ignorar o arquivo .env
+.env
+
+# Ignorar arquivos de logs
+logs/
+*.log
+
+# Ignorar cache do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos do editor
+.vscode/
+.idea/
+*.swp
